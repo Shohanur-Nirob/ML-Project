@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-dataset = pd.read_csv("D:\\Database\\genomics\\GDSC2_dataset.csv")
+dataset = pd.read_csv('GDSC2_dataset.csv')
 
 X = dataset.iloc[:, :-1]  
 y = dataset.iloc[:, -1]    
